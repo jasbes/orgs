@@ -1,18 +1,18 @@
-package br.com.alura.ui.activity
+package br.com.alura.orgs.ui.activity
 
-import android.app.Activity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.RecyclerView
 import br.com.alura.R
-import br.com.alura.model.Product
-import br.com.alura.ui.recyclerview.adapter.ListProductsAdapter
+import br.com.alura.orgs.model.Product
+import br.com.alura.orgs.ui.recyclerview.adapter.ListProductsAdapter
 import java.math.BigDecimal
 
-class MainActivity : Activity() {
+class MainActivity : AppCompatActivity(R.layout.activity_main) {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+//        setContentView(R.layout.activity_main)
 
 //        val name = findViewById<TextView>(R.id.name)
 //        name.text = "Cesta de frutas"

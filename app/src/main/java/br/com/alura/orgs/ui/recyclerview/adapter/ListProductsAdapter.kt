@@ -1,4 +1,4 @@
-package br.com.alura.ui.recyclerview.adapter
+package br.com.alura.orgs.ui.recyclerview.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import br.com.alura.R
-import br.com.alura.model.Product
+import br.com.alura.orgs.model.Product
 
 class ListProductsAdapter(private val context: Context, private val products: List<Product>) :
     RecyclerView.Adapter<ListProductsAdapter.ViewHolder>() {
